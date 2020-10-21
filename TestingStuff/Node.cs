@@ -5,13 +5,18 @@ using TestingStuff.Models;
 
 namespace TestingStuff
 {
+    /*
+     * Create a generic class, Node<T> that can manage a binary search tree containing data of any type T
+     * which implements the IComparable interface.
+     * Tests include multiple data types all of which implement the IComparable interface.
+     */
     public class Node<T> : IChallenge where T : IComparable
     {
         public Node<T> Left { get; private set; }
         public Node<T> Right { get; private set; }
         public readonly T Data;
-        private readonly List<Node<T>> List = new List<Node<T>>();
-        private readonly IEnumerable<T> TreeData = new List<T>();
+        private readonly List<Node<T>> _list = new List<Node<T>>();
+        private readonly IEnumerable<T> _treeData = new List<T>();
 
         public Node()
         {
@@ -20,72 +25,61 @@ namespace TestingStuff
         public Node(T data)
         {
             Data = data;
-            List.Add(this);
+            _list.Add(this);
         }
 
         public void Insert(T data)
         {
             if (Data.CompareTo(data) == 1)
-            {
-                var curr = new Node<T>(data);
-                if (Left != null)
-                {
-                    if (Left.Data.CompareTo(curr.Data) == 1)
-                    {
-                        Left.Left = curr;
-                        List.Add(curr);
-                    }
-                    else
-                    {
-                        Left.Right = curr;
-                        List.Add(curr);
-                    }
-                }
-                else
-                {
-                    Left = new Node<T>(data);
-                    List.Add(Left);
-                }
-            }
+                TraverseLeft(data);
 
-            if (Data.CompareTo(data) == -1)
+
+            if (Data.CompareTo(data) != -1) return;
+
+            TraverseRight(data);
+        }
+
+        private void TraverseLeft(T data)
+        {
+            var curr = new Node<T>(data);
+            if (Left != null)
             {
-                var curr = new Node<T>(data);
-                if (Right != null)
-                {
-                    if (Right.Data.CompareTo(curr.Data) == 1)
-                    {
-                        Right.Left = curr;
-                        List.Add(curr);
-                    }
-                    else
-                    {
-                        Right.Right = curr;
-                        List.Add(curr);
-                    }
-                }
+                if (Left.Data.CompareTo(curr.Data) == 1)
+                    Left.Left = curr;
                 else
-                {
-                    Right = new Node<T>(data);
-                    List.Add(Right);
-                }
+                    Left.Right = curr;
+
+                _list.Add(curr);
+            }
+            else
+            {
+                Left = new Node<T>(data);
+                _list.Add(Left);
             }
         }
 
-
-        private IEnumerable<Node<T>> GetList()
+        private void TraverseRight(T data)
         {
-            return List;
+            var curr = new Node<T>(data);
+            if (Right != null)
+            {
+                if (Right.Data.CompareTo(curr.Data) == 1)
+                    Right.Left = curr;
+                else
+                    Right.Right = curr;
+
+                _list.Add(curr);
+            }
+            else
+            {
+                Right = new Node<T>(data);
+                _list.Add(Right);
+            }
         }
 
         public IEnumerable<T> GetTreeData()
         {
-            return GetList().OrderBy(x => x.Data).Select(x => x.Data);
-        }
-
-        public override string ToString()
-        {
-            return "Node: " + Data;
+            return _list.OrderBy(x => x.Data).Select(x => x.Data);
         }
 
         public void Show()
