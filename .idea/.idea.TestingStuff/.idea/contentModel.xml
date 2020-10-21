@@ -22,6 +22,7 @@
         <e p="TestChallenges.csproj" t="IncludeRecursive" />
       </e>
       <e p="TestingStuff" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Models" t="Include">
           <e p="IChallenge.cs" t="Include" />
