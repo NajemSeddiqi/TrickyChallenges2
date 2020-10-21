@@ -1,0 +1,8 @@
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\bin\Debug\net472\TestingStuff.exe.config
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\bin\Debug\net472\TestingStuff.exe
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\bin\Debug\net472\TestingStuff.pdb
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\obj\Debug\net472\TestingStuff.csprojAssemblyReference.cache
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\obj\Debug\net472\TestingStuff.AssemblyInfoInputs.cache
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\obj\Debug\net472\TestingStuff.AssemblyInfo.cs
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\obj\Debug\net472\TestingStuff.exe
+C:\Users\Najem\RiderProjects\TestingStuff\TestingStuff\obj\Debug\net472\TestingStuff.pdb

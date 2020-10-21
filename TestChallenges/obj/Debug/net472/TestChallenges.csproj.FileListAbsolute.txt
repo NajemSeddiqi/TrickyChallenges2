@@ -1,0 +1,17 @@
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\NUnit3.TestAdapter.dll
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\NUnit3.TestAdapter.pdb
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\nunit.engine.dll
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\nunit.engine.api.dll
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\TestChallenges.dll
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\TestChallenges.pdb
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\nunit.framework.dll
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\TestingStuff.exe
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\TestingStuff.pdb
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\bin\Debug\net472\TestingStuff.exe.config
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\obj\Debug\net472\TestChallenges.csprojAssemblyReference.cache
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\obj\Debug\net472\TestChallenges.AssemblyInfoInputs.cache
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\obj\Debug\net472\TestChallenges.AssemblyInfo.cs
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\obj\Debug\net472\TestChallenges.csproj.CopyComplete
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\obj\Debug\net472\TestChallenges.dll
+C:\Users\Najem\RiderProjects\TestingStuff\TestChallenges\obj\Debug\net472\TestChallenges.pdb
