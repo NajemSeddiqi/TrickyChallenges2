@@ -5,12 +5,14 @@
     <e p="C:\Users\Najem\.nuget\packages\nunit3testadapter\3.16.1\build\net35\nunit.engine.dll" t="Include" />
     <e p="C:\Users\Najem\.nuget\packages\nunit3testadapter\3.16.1\build\net35\NUnit3.TestAdapter.dll" t="Include" />
     <e p="C:\Users\Najem\.nuget\packages\nunit3testadapter\3.16.1\build\net35\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\Najem\.Rider2019.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\Najem\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Najem\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_TestingStuff.-2085180232.00" t="ExcludeRecursive" />
     <e p="C:\Users\Najem\RiderProjects\TestingStuff" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="TestChallenges" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="BinaryClockTests.cs" t="Include" />
         <e p="NodeTests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -23,6 +25,7 @@
       </e>
       <e p="TestingStuff" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="BinaryClock.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="IChallenge.cs" t="Include" />
         </e>

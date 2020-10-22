@@ -33,7 +33,6 @@ namespace TestingStuff
             if (Data.CompareTo(data) == 1)
                 TraverseLeft(data);
 
-
             if (Data.CompareTo(data) != -1) return;
 
             TraverseRight(data);

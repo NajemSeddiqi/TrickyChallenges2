@@ -6,7 +6,7 @@ using TestingStuff;
 namespace TestChallenges
 {
     [TestFixture]
-    public class Tests
+    public class NodeTests
     {
         class MyWord : IComparable
         {

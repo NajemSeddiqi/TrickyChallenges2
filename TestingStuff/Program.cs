@@ -6,7 +6,7 @@ namespace TestingStuff
     {
         private static void Main(string[] args)
         {
-            new Node<int>().Show();
+            new BinaryClock().Show();
         }
     }
 }
