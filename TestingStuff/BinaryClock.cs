@@ -10,8 +10,7 @@ namespace TestingStuff
     {
         public static string[] GetTime(string str)
         {
-            var bytes = GetBinaries(str);
-            var dimensional = GetDimensionalArray(bytes);
+            var dimensional = GetDimensionalArray(GetBinaries(str));
 
             StringBuilder sbOne = new StringBuilder(), sbTwo = new StringBuilder();
             string three = "", four = "";
@@ -40,7 +39,7 @@ namespace TestingStuff
 
         private static string[,] GetDimensionalArray(string[] bytes)
         {
-            string[,] dimensional = new String[4, 6];
+            string[,] dimensional = new string[4, 6];
 
             for (var i = 0; i < bytes.Length; i++)
             {
@@ -56,7 +55,7 @@ namespace TestingStuff
 
         private static string[] GetBinaries(string str)
         {
-            var bytes = new String[6];
+            var bytes = new string[6];
             var s = str.Split(':').Aggregate((curr, next) => curr + next);
 
             for (var i = 0; i < s.ToCharArray().Length; i++)
