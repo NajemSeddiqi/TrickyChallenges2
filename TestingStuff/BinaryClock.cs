@@ -37,11 +37,11 @@ namespace TestingStuff
             sbTwo.Replace("0", " ", 0, 1);
         }
 
-        private static string[,] GetDimensionalArray(string[] bytes)
+        private static string[,] GetDimensionalArray(IReadOnlyList<string> bytes)
         {
             string[,] dimensional = new string[4, 6];
 
-            for (var i = 0; i < bytes.Length; i++)
+            for (var i = 0; i < bytes.Count; i++)
             {
                 var c = bytes[i].ToCharArray();
                 for (var j = 0; j < c.Length; j++)
