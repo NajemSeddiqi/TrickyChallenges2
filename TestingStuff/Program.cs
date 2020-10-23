@@ -6,7 +6,7 @@ namespace TestingStuff
     {
         private static void Main(string[] args)
         {
-            new BinaryClock().Show();
+            new PokerHand().Show();
         }
     }
 }

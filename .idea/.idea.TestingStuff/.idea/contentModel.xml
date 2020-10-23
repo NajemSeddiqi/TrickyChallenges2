@@ -21,6 +21,7 @@
             </e>
           </e>
         </e>
+        <e p="PokerHandTests.cs" t="Include" />
         <e p="TestChallenges.csproj" t="IncludeRecursive" />
       </e>
       <e p="TestingStuff" t="IncludeRecursive">
@@ -37,6 +38,7 @@
             </e>
           </e>
         </e>
+        <e p="PokerHand.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="TestingStuff.csproj" t="IncludeRecursive" />
       </e>

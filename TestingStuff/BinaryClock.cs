@@ -6,6 +6,15 @@ using TestingStuff.Models;
 
 namespace TestingStuff
 {
+    /*
+     * A binary clock displays the time of day in binary format.
+     * Modern binary clocks have six columns of lights; two for each of the hours, minutes and seconds.
+     * ("10:37:49") ➞ 
+     *                 " 0 0 1"
+     *                 " 00110"
+     *                 "001100"
+     *                 "101101"
+     */
     public class BinaryClock : IChallenge
     {
         public static string[] GetTime(string str)
