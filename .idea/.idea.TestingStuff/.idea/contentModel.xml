@@ -22,15 +22,20 @@
           </e>
         </e>
         <e p="PokerHandTests.cs" t="Include" />
+        <e p="PowerfulPrimeFactorsTests.cs" t="Include" />
         <e p="TestChallenges.csproj" t="IncludeRecursive" />
       </e>
       <e p="TestingStuff" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="BinaryClock.cs" t="Include" />
+        <e p="Challenges" t="Include">
+          <e p="BinaryClock.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+          <e p="PokerHand.cs" t="Include" />
+          <e p="PowerfulPrimeFactor.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="IChallenge.cs" t="Include" />
         </e>
-        <e p="Node.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net472" t="Include">
@@ -38,7 +43,6 @@
             </e>
           </e>
         </e>
-        <e p="PokerHand.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="TestingStuff.csproj" t="IncludeRecursive" />
       </e>

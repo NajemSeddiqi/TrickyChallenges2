@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using TestingStuff.Models;
 
-namespace TestingStuff
+namespace TestingStuff.Challenges
 {
     /**
      * Establish which kind of Poker combination is present in a deck of five cards.

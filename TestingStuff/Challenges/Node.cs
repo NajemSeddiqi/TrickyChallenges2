@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TestingStuff.Models;
 
-namespace TestingStuff
+namespace TestingStuff.Challenges
 {
     /*
      * Create a generic class, Node<T> that can manage a binary search tree containing data of any type T
@@ -16,7 +16,6 @@ namespace TestingStuff
         public Node<T> Right { get; private set; }
         public readonly T Data;
         private readonly List<Node<T>> _list = new List<Node<T>>();
-        private readonly IEnumerable<T> _treeData = new List<T>();
 
         public Node()
         {

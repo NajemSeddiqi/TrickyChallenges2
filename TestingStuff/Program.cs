@@ -1,4 +1,5 @@
 ﻿using System;
+using TestingStuff.Challenges;
 
 namespace TestingStuff
 {
@@ -6,7 +7,7 @@ namespace TestingStuff
     {
         private static void Main(string[] args)
         {
-            new PokerHand().Show();
+            new PowerfulPrimeFactor().Show();
         }
     }
 }

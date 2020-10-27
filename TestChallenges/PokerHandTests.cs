@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using TestingStuff;
+using TestingStuff.Challenges;
 
 namespace TestChallenges
 {

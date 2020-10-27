@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using TestingStuff.Models;
 
-namespace TestingStuff
+namespace TestingStuff.Challenges
 {
     /*
      * A binary clock displays the time of day in binary format.
@@ -54,9 +54,7 @@ namespace TestingStuff
             {
                 var c = bytes[i].ToCharArray();
                 for (var j = 0; j < c.Length; j++)
-                {
                     dimensional[j, i] = c[j].ToString();
-                }
             }
 
             return dimensional;
