@@ -7,7 +7,7 @@ namespace TestingStuff
     {
         private static void Main(string[] args)
         {
-            new PowerfulPrimeFactor().Show();
+            new DistToNearestVowel().Show();
         }
     }
 }
