@@ -7,7 +7,7 @@ namespace TestingStuff
     {
         private static void Main(string[] args)
         {
-            new DistToNearestVowel().Show();
+            new Abacus().Show();
         }
     }
 }

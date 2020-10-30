@@ -11,6 +11,7 @@
     <e p="C:\Users\Najem\RiderProjects\TestingStuff" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="TestChallenges" t="IncludeRecursive">
+        <e p="AbacusTests.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="BinaryClockTests.cs" t="Include" />
         <e p="DistToNearestVowelTests.cs" t="Include" />
@@ -29,6 +30,7 @@
       <e p="TestingStuff" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Challenges" t="Include">
+          <e p="Abacus.cs" t="Include" />
           <e p="BinaryClock.cs" t="Include" />
           <e p="DistToNearestVowel.cs" t="Include" />
           <e p="Node.cs" t="Include" />
