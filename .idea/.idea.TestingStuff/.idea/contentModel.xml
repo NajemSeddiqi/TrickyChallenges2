@@ -23,6 +23,7 @@
             </e>
           </e>
         </e>
+        <e p="PackingHelpTests.cs" t="Include" />
         <e p="PokerHandTests.cs" t="Include" />
         <e p="PowerfulPrimeFactorsTests.cs" t="Include" />
         <e p="TestChallenges.csproj" t="IncludeRecursive" />
@@ -34,6 +35,7 @@
           <e p="BinaryClock.cs" t="Include" />
           <e p="DistToNearestVowel.cs" t="Include" />
           <e p="Node.cs" t="Include" />
+          <e p="PackingHelp.cs" t="Include" />
           <e p="PokerHand.cs" t="Include" />
           <e p="PowerfulPrimeFactor.cs" t="Include" />
         </e>
