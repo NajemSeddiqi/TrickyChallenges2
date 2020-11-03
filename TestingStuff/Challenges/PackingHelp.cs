@@ -12,6 +12,7 @@ namespace TestingStuff.Challenges
     {
         public static bool CanFit(int[] weights, int bags)
         {
+            //weights.Sum() can also be used instead, for posterity..
             var total = weights.ToList().Aggregate((a, b) => a + b);
             var canCarry = bags * 10;
 
