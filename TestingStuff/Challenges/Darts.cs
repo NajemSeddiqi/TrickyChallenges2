@@ -5,7 +5,7 @@ using TestingStuff.Models;
 
 namespace TestingStuff.Challenges
 {
-    //Fuck this challenge
+    //Fuck this challenge, unclear instructions
     public class Darts : IChallenge
     {
         public static string[] DartsSolver(int[] sections, int darts, int target)
