@@ -30,7 +30,7 @@ namespace TestingStuff.Challenges
                 for (var j = 0; j < sequence; j++)
                     sb.Append("o").Append(j != (int) sequence - 1 ? " " : "");
 
-                sb.Append(GetSpaces(y)).Append(i != (int) length - 1 ? "\n" : "");
+                sb.Append(GetSpaces(y)).Append(i != length - 1 ? "\n" : "");
 
                 if (i < GetRoot(n) - 1)
                 {

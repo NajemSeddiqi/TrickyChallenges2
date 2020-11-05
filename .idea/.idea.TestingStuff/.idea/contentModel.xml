@@ -15,6 +15,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="BinaryClockTests.cs" t="Include" />
         <e p="CenteredHexagonalNumbersTests.cs" t="Include" />
+        <e p="DartsTests.cs" t="Include" />
         <e p="DistToNearestVowelTests.cs" t="Include" />
         <e p="NodeTests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -35,6 +36,7 @@
           <e p="Abacus.cs" t="Include" />
           <e p="BinaryClock.cs" t="Include" />
           <e p="CenteredHexagonalNumber.cs" t="Include" />
+          <e p="Darts.cs" t="Include" />
           <e p="DistToNearestVowel.cs" t="Include" />
           <e p="Node.cs" t="Include" />
           <e p="PackingHelp.cs" t="Include" />
