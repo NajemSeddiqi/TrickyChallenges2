@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using TestingStuff.Challenges;
 
 namespace TestingStuff
@@ -7,6 +8,7 @@ namespace TestingStuff
     {
         private static void Main(string[] args)
         {
+            new RotateTransformMatrix().Show();
         }
     }
 }
